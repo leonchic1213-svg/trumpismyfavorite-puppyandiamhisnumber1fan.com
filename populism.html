@@ -4,77 +4,192 @@
 <meta charset="UTF-8">
 <title>Популизм Дональда Трампа</title>
 
+<!-- Иконка вкладки -->
+<link rel="icon" type="image/png" href="images/favicon.png">
+
+<!-- Шрифт -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
 <style>
+/* ===== БАЗА ===== */
 body {
-    font-family: system-ui, sans-serif;
-    background: #ffffff;
-    color: #222;
     margin: 0;
+    font-family: 'Inter', system-ui, sans-serif;
+    background-color: #ffffff;
+    color: #111827;
     line-height: 1.8;
 }
+
+/* ===== ШАПКА ===== */
 header {
-    background: #111;
-    color: #fff;
-    padding: 30px 40px;
+    background: linear-gradient(180deg, #020617, #0f172a);
+    color: #e5e7eb;
+    padding: 36px 40px;
 }
+
+header h1 {
+    margin: 0 0 12px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+header p {
+    margin: 0;
+    font-size: 15px;
+    color: #9ca3af;
+}
+
+nav {
+    margin-top: 16px;
+}
+
 nav a {
-    color: #aaa;
-    margin-right: 20px;
+    color: #94a3b8;
     text-decoration: none;
+    margin-right: 24px;
+    font-weight: 500;
 }
-nav a:hover { color: #fff; }
+
+nav a:hover {
+    color: #ffffff;
+}
+
+/* ===== ОСНОВНАЯ ЧАСТЬ ===== */
 main {
-    max-width: 900px;
-    margin: 60px auto;
-    padding: 0 20px;
+    max-width: 880px;
+    margin: 70px auto;
+    padding: 0 24px;
 }
+
+main h2 {
+    font-size: 24px;
+    margin-top: 48px;
+    margin-bottom: 16px;
+    color: #020617;
+}
+
+main p {
+    font-size: 16px;
+    margin: 18px 0;
+}
+
+/* Цитатный акцент */
+blockquote {
+    border-left: 4px solid #0f172a;
+    padding-left: 20px;
+    margin: 40px 0;
+    color: #374151;
+    font-style: italic;
+}
+
+/* Изображения */
+.image {
+    margin: 50px 0;
+}
+
 .image img {
     width: 100%;
-    margin: 40px 0 10px;
+    border-radius: 6px;
 }
+
 .caption {
+    font-size: 13px;
+    color: #6b7280;
+    margin-top: 6px;
+}
+
+/* ===== ПОДВАЛ ===== */
+footer {
+    background: #020617;
+    color: #9ca3af;
+    padding: 32px 20px;
+    text-align: center;
     font-size: 14px;
-    color: #777;
 }
 </style>
 </head>
 
 <body>
 
+<!-- ===== HEADER ===== -->
 <header>
-<h1>Популизм как основа политики Трампа</h1>
-<nav>
-<a href="index.html">Главная</a>
-<a href="populism.html">Популизм</a>
-<a href="protectionism.html">Протекционизм</a>
-<a href="consequences.html">Последствия</a>
-</nav>
+    <h1>Популизм как основа политики Дональда Трампа</h1>
+    <p>Как упрощение реальности разрушает демократические институты</p>
+    <nav>
+        <a href="index.html">Главная</a>
+        <a href="populism.html">Популизм</a>
+        <a href="protectionism.html">Протекционизм</a>
+        <a href="consequences.html">Последствия</a>
+    </nav>
 </header>
 
+<!-- ===== MAIN ===== -->
 <main>
+
+<h2>Сущность популистского подхода</h2>
+
 <p>
 Популизм является центральным элементом политического стиля Дональда Трампа.
-Он основан на упрощённой картине мира, где общество делится на
-«настоящий народ» и «коррумпированные элиты».
+Он основывается на резком и упрощённом разделении общества на
+«настоящий народ» и «коррумпированные элиты», что позволяет игнорировать
+сложность политических, экономических и социальных процессов.
 </p>
 
 <p>
-В этой логике независимые институты — суды, СМИ, парламент —
-рассматриваются как препятствие, а не как основа демократии.
-Любая критика объявляется заговором.
+В такой картине мира не существует институциональных ограничений:
+суды, парламент, независимые СМИ и экспертное сообщество
+воспринимаются не как основа демократии, а как препятствие
+на пути реализации «народной воли».
+</p>
+
+<blockquote>
+Популизм заменяет управление конфликтом,
+конфликтом — управление.
+</blockquote>
+
+<h2>Конфликт как политический инструмент</h2>
+
+<p>
+Для устойчивости популистской модели необходим постоянный источник напряжения.
+Именно поэтому риторика Трампа практически всегда строится
+вокруг поиска врага — внутреннего или внешнего.
+</p>
+
+<p>
+Мигранты, международные организации, журналисты, союзники США
+и даже собственные государственные структуры регулярно объявляются
+угрозой или источником проблем.
 </p>
 
 <div class="image">
-<img src="images/polarization.jpg" alt="Поляризация общества">
-<p class="caption">Поляризация как инструмент власти</p>
+    <img src="images/polarization.jpg" alt="Поляризация общества">
+    <div class="caption">
+        Поляризация общества как ключевой элемент популистской стратегии
+    </div>
 </div>
 
+<h2>Долгосрочные последствия</h2>
+
 <p>
-Постоянный конфликт становится необходимым для удержания поддержки.
-Это разрушает культуру диалога и делает демократическое управление
-практически невозможным.
+Популистская логика подрывает доверие к самой идее институционального государства.
+Когда компромисс объявляется слабостью, а несогласие — предательством,
+общество теряет способность к рациональному диалогу.
 </p>
+
+<p>
+В долгосрочной перспективе это ведёт к эрозии демократии,
+усилению радикальных настроений и превращению политики
+в непрерывный кризис.
+</p>
+
 </main>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+    Аналитический проект • Раздел «Популизм»
+</footer>
 
 </body>
 </html>
